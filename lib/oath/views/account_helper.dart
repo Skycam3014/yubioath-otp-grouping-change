@@ -168,6 +168,8 @@ class _CodeLabel extends StatelessWidget {
       return '';
     } else if (value.length < 6) {
       return value;
+    } else if (value.length == 6) {
+      return '${value.substring(0, 2)} ${value.substring(2, 4)} ${value.substring(4)}';
     } else {
       var i = value.length ~/ 2;
       return '${value.substring(0, i)} ${value.substring(i)}';

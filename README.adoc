@@ -85,3 +85,5 @@ If you are interested in helping out with translations for any language, you are
 === Build instructions (for developers)
 Instructions on building and packaging the app is available
 link:doc/Development.adoc[here].
+
+=== :3
